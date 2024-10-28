@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--form action="register.php"method="POST"-->
+  <form action="action_page.php"method="POST">
+    
+  <div class="container">
+    <h1>Login</h1>
+    <p>Please fill in this login your  account.</p>
+    <hr>
+
+    <div class="form-group">
+        <label for="phone"><b>Phone:</b></label>
+        <input type="text" placeholder="Enter phone " name="phone" id="phone" required>
+    </div>
+
+    <div class="form-group">
+        <label for="password"><b>Password:</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required>
+    </div>
+
+    <hr>
+   
+    <!--button type="submit" class="login">Login</button-->
+    <button type="submit" class="login"><a href="main.html">Login</a>.</button>
+   <!--p><button type="submit" class="forgotpassword"><a href="forgotpassword.html">Forgot password</a>.</button></p-->
+
+  
+  </div>
+
+  <div class="container signin">
+
+    <p>create an account? <a href="register.html">Sign up</a>.</p>
+  </div>
+  
+  <div class="container signin"
+
+    <p1> Reset your password? <a href="forgotpassword.html">Forgot password.</a></p1>
+  </div>
+</form>
+</html>
